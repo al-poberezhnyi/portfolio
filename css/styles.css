@@ -1,0 +1,87 @@
+:root {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* header  */
+
+.wrapper {
+  background-color: #c4c4c4;
+  background: linear-gradient(100deg, #c4c4c4 50%, #010101 50%);
+  height: 100vh;
+}
+
+/* nav  */
+
+.links {
+  display: flex;
+  padding: 40px 200px;
+}
+
+.logo-link > img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.info-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #c4c4c4;
+}
+
+.info-links > li {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 0 10px;
+  border: 2px solid #c4c4c4;
+  border-radius: 15px;
+}
+
+/* hero  */
+.hero {
+  padding: 0 200px;
+  display: flex;
+  align-items: center;
+}
+/* info  */
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.full-name {
+  display: block;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+.social-media-links {
+  margin-top: 100px;
+}
+.social-media-links > li {
+  display: inline-block;
+}
+.social-media-links a {
+  font-size: 4rem;
+  color: #010101;
+}
+
+/* photo  */
+.main-user-photo > img {
+  height: 650px;
+  width: 500px;
+  object-fit: contain;
+}
+.main-user-photo {
+  margin-left: auto;
+}
